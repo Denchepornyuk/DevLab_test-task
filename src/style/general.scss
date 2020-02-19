@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 *,
 *::before,
 *::after {
@@ -13,4 +15,16 @@ body {
   width: 1140px;
   margin: auto;
   padding: 0 20px;
+}
+
+@media screen and (max-width: $small-desktop-screen) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $mobile-screen) {
+  .container {
+    padding: 0;
+  }
 }

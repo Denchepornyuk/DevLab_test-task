@@ -1,0 +1,12 @@
+.tracker {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+  }
+}

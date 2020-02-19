@@ -1,0 +1,74 @@
+@import "../../style/variables.scss";
+
+.track {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 558px;
+    height: 60px;
+    padding: 24px 5px 24px 21px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transform: translateX(-3%);
+
+    &:nth-child(1) {
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    &--active {
+      color: $general_color;
+      background-color: #fdfdf6;
+    }
+  }
+
+  &__name,
+  &__timer {
+    flex-basis: 350px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0.42px;
+  }
+
+  &__name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__timer {
+    flex-basis: 100px;
+  }
+
+  &__button {
+    flex-basis: 10px;
+  }
+
+  &__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-screen) {
+  .track {
+    &__item {
+      width: 360px;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-screen) {
+  .track {
+    &__item {
+      width: 280px;
+    }
+  }
+}
