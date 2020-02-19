@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nimble_test-task/static/css/main.a8d0aeb7.chunk.css",
+    "main.js": "/Nimble_test-task/static/js/main.876ad9d9.chunk.js",
+    "main.js.map": "/Nimble_test-task/static/js/main.876ad9d9.chunk.js.map",
+    "runtime~main.js": "/Nimble_test-task/static/js/runtime~main.2993ae40.js",
+    "runtime~main.js.map": "/Nimble_test-task/static/js/runtime~main.2993ae40.js.map",
+    "static/js/2.4df356bd.chunk.js": "/Nimble_test-task/static/js/2.4df356bd.chunk.js",
+    "static/js/2.4df356bd.chunk.js.map": "/Nimble_test-task/static/js/2.4df356bd.chunk.js.map",
+    "index.html": "/Nimble_test-task/index.html",
+    "precache-manifest.65bb9352c6eb5332080482000b882024.js": "/Nimble_test-task/precache-manifest.65bb9352c6eb5332080482000b882024.js",
+    "service-worker.js": "/Nimble_test-task/service-worker.js",
+    "static/css/main.a8d0aeb7.chunk.css.map": "/Nimble_test-task/static/css/main.a8d0aeb7.chunk.css.map"
+  }
+}
